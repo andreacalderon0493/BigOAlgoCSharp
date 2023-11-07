@@ -20,6 +20,17 @@
               200
             };
             Algorithm.DetermineItems(newList);
+
+            var listOfNames = new List<string>
+            {
+                "andrea",
+                "jose",
+                "obi",
+                "frank",
+                "naboo",
+                "frank"
+            };
+            Algorithm.RepeatedName(listOfNames);
         }
     } 
 }
